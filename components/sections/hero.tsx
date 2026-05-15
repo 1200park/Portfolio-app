@@ -69,13 +69,13 @@ export function HeroSection() {
         <div className="space-y-5 sm:space-y-6">
           <h1 className="animate-fade-up break-word">
             <span className="block text-3xl font-medium leading-snug tracking-tight text-muted sm:text-4xl md:text-5xl">
-              Hi, I&rsquo;m
+              안녕하세요,
             </span>
             <span className="mt-1 block text-5xl font-semibold leading-[1.08] tracking-tight text-foreground sm:text-6xl md:text-7xl lg:text-[5.5rem]">
-              {profile.name}
+              {profile.nameKo}입니다.
             </span>
             <span className="mt-0.5 block font-mono text-xl font-normal tracking-wider text-muted sm:text-2xl md:text-3xl">
-              {profile.nameKo}
+              {profile.name}
             </span>
           </h1>
 
